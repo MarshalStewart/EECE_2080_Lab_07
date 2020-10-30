@@ -1,0 +1,2 @@
+/bin/ar qc libracelibrary.a  CMakeFiles/racelibrary.dir/Races/NAZI.cpp.o CMakeFiles/racelibrary.dir/Races/SPQR.cpp.o CMakeFiles/racelibrary.dir/Races/USA.cpp.o CMakeFiles/racelibrary.dir/Races/USSR.cpp.o
+/bin/ranlib libracelibrary.a

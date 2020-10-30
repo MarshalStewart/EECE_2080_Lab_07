@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/Run/runMain.dir/Main.cpp.o -c /home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/Main.cpp",
+  "file": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/Main.cpp"
+},
+{
+  "directory": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/Run/runTests.dir/tests.cpp.o -c /home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/tests.cpp",
+  "file": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/tests.cpp"
+},
+{
+  "directory": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/racelibrary.dir/Races/NAZI.cpp.o -c /home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/Races/NAZI.cpp",
+  "file": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/Races/NAZI.cpp"
+},
+{
+  "directory": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/racelibrary.dir/Races/SPQR.cpp.o -c /home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/Races/SPQR.cpp",
+  "file": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/Races/SPQR.cpp"
+},
+{
+  "directory": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/racelibrary.dir/Races/USA.cpp.o -c /home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/Races/USA.cpp",
+  "file": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/Races/USA.cpp"
+},
+{
+  "directory": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/racelibrary.dir/Races/USSR.cpp.o -c /home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/Races/USSR.cpp",
+  "file": "/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/Races/USSR.cpp"
+}
+]

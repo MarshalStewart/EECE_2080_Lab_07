@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -g  -rdynamic CMakeFiles/Run/runMain.dir/Main.cpp.o  -o Run/runMain  libracelibrary.a -lclasslibrary 
