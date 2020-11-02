@@ -1,5 +1,5 @@
 /home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build/CMakeFiles/rebuild_cache.dir
 /home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build/CMakeFiles/edit_cache.dir
-/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build/CMakeFiles/Run/runMain.dir
-/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build/CMakeFiles/Run/runTests.dir
-/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build/CMakeFiles/racelibrary.dir
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build/CMakeFiles/runMain.dir
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build/CMakeFiles/runTests.dir
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/build/CMakeFiles/applibrary.dir

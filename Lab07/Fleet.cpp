@@ -6,13 +6,12 @@
     
 #include "Fleet.h"
 
-
-template<class ItemType>
+template<typename ItemType>
 Fleet<ItemType>::Fleet(const ItemType& theItem) : m_flagShip(theItem)
 {
 }  // end constructor
 
-template<class ItemType>
+template<typename ItemType>
 void Fleet<ItemType>::setFlagShip(const ItemType& theItem)
 {
     m_flagShip = theItem;

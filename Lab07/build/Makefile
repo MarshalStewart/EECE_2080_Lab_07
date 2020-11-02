@@ -111,43 +111,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Run/runMain
+# Target rules for targets named runMain
 
 # Build rule for target.
-Run/runMain: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Run/runMain
-.PHONY : Run/runMain
+runMain: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runMain
+.PHONY : runMain
 
 # fast build rule for target.
-Run/runMain/fast:
-	$(MAKE) -f CMakeFiles/Run/runMain.dir/build.make CMakeFiles/Run/runMain.dir/build
-.PHONY : Run/runMain/fast
+runMain/fast:
+	$(MAKE) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/build
+.PHONY : runMain/fast
 
 #=============================================================================
-# Target rules for targets named Run/runTests
+# Target rules for targets named runTests
 
 # Build rule for target.
-Run/runTests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Run/runTests
-.PHONY : Run/runTests
+runTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runTests
+.PHONY : runTests
 
 # fast build rule for target.
-Run/runTests/fast:
-	$(MAKE) -f CMakeFiles/Run/runTests.dir/build.make CMakeFiles/Run/runTests.dir/build
-.PHONY : Run/runTests/fast
+runTests/fast:
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/build
+.PHONY : runTests/fast
 
 #=============================================================================
-# Target rules for targets named racelibrary
+# Target rules for targets named applibrary
 
 # Build rule for target.
-racelibrary: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 racelibrary
-.PHONY : racelibrary
+applibrary: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 applibrary
+.PHONY : applibrary
 
 # fast build rule for target.
-racelibrary/fast:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/build
-.PHONY : racelibrary/fast
+applibrary/fast:
+	$(MAKE) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/build
+.PHONY : applibrary/fast
 
 Main.o: Main.cpp.o
 
@@ -155,7 +155,7 @@ Main.o: Main.cpp.o
 
 # target to build an object file
 Main.cpp.o:
-	$(MAKE) -f CMakeFiles/Run/runMain.dir/build.make CMakeFiles/Run/runMain.dir/Main.cpp.o
+	$(MAKE) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/Main.cpp.o
 .PHONY : Main.cpp.o
 
 Main.i: Main.cpp.i
@@ -164,7 +164,7 @@ Main.i: Main.cpp.i
 
 # target to preprocess a source file
 Main.cpp.i:
-	$(MAKE) -f CMakeFiles/Run/runMain.dir/build.make CMakeFiles/Run/runMain.dir/Main.cpp.i
+	$(MAKE) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/Main.cpp.i
 .PHONY : Main.cpp.i
 
 Main.s: Main.cpp.s
@@ -173,116 +173,35 @@ Main.s: Main.cpp.s
 
 # target to generate assembly for a file
 Main.cpp.s:
-	$(MAKE) -f CMakeFiles/Run/runMain.dir/build.make CMakeFiles/Run/runMain.dir/Main.cpp.s
+	$(MAKE) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
-Races/NAZI.o: Races/NAZI.cpp.o
+ShipFactory.o: ShipFactory.cpp.o
 
-.PHONY : Races/NAZI.o
-
-# target to build an object file
-Races/NAZI.cpp.o:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/NAZI.cpp.o
-.PHONY : Races/NAZI.cpp.o
-
-Races/NAZI.i: Races/NAZI.cpp.i
-
-.PHONY : Races/NAZI.i
-
-# target to preprocess a source file
-Races/NAZI.cpp.i:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/NAZI.cpp.i
-.PHONY : Races/NAZI.cpp.i
-
-Races/NAZI.s: Races/NAZI.cpp.s
-
-.PHONY : Races/NAZI.s
-
-# target to generate assembly for a file
-Races/NAZI.cpp.s:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/NAZI.cpp.s
-.PHONY : Races/NAZI.cpp.s
-
-Races/SPQR.o: Races/SPQR.cpp.o
-
-.PHONY : Races/SPQR.o
+.PHONY : ShipFactory.o
 
 # target to build an object file
-Races/SPQR.cpp.o:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/SPQR.cpp.o
-.PHONY : Races/SPQR.cpp.o
+ShipFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/ShipFactory.cpp.o
+.PHONY : ShipFactory.cpp.o
 
-Races/SPQR.i: Races/SPQR.cpp.i
+ShipFactory.i: ShipFactory.cpp.i
 
-.PHONY : Races/SPQR.i
-
-# target to preprocess a source file
-Races/SPQR.cpp.i:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/SPQR.cpp.i
-.PHONY : Races/SPQR.cpp.i
-
-Races/SPQR.s: Races/SPQR.cpp.s
-
-.PHONY : Races/SPQR.s
-
-# target to generate assembly for a file
-Races/SPQR.cpp.s:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/SPQR.cpp.s
-.PHONY : Races/SPQR.cpp.s
-
-Races/USA.o: Races/USA.cpp.o
-
-.PHONY : Races/USA.o
-
-# target to build an object file
-Races/USA.cpp.o:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/USA.cpp.o
-.PHONY : Races/USA.cpp.o
-
-Races/USA.i: Races/USA.cpp.i
-
-.PHONY : Races/USA.i
+.PHONY : ShipFactory.i
 
 # target to preprocess a source file
-Races/USA.cpp.i:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/USA.cpp.i
-.PHONY : Races/USA.cpp.i
+ShipFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/ShipFactory.cpp.i
+.PHONY : ShipFactory.cpp.i
 
-Races/USA.s: Races/USA.cpp.s
+ShipFactory.s: ShipFactory.cpp.s
 
-.PHONY : Races/USA.s
-
-# target to generate assembly for a file
-Races/USA.cpp.s:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/USA.cpp.s
-.PHONY : Races/USA.cpp.s
-
-Races/USSR.o: Races/USSR.cpp.o
-
-.PHONY : Races/USSR.o
-
-# target to build an object file
-Races/USSR.cpp.o:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/USSR.cpp.o
-.PHONY : Races/USSR.cpp.o
-
-Races/USSR.i: Races/USSR.cpp.i
-
-.PHONY : Races/USSR.i
-
-# target to preprocess a source file
-Races/USSR.cpp.i:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/USSR.cpp.i
-.PHONY : Races/USSR.cpp.i
-
-Races/USSR.s: Races/USSR.cpp.s
-
-.PHONY : Races/USSR.s
+.PHONY : ShipFactory.s
 
 # target to generate assembly for a file
-Races/USSR.cpp.s:
-	$(MAKE) -f CMakeFiles/racelibrary.dir/build.make CMakeFiles/racelibrary.dir/Races/USSR.cpp.s
-.PHONY : Races/USSR.cpp.s
+ShipFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/ShipFactory.cpp.s
+.PHONY : ShipFactory.cpp.s
 
 tests.o: tests.cpp.o
 
@@ -290,7 +209,7 @@ tests.o: tests.cpp.o
 
 # target to build an object file
 tests.cpp.o:
-	$(MAKE) -f CMakeFiles/Run/runTests.dir/build.make CMakeFiles/Run/runTests.dir/tests.cpp.o
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests.cpp.o
 .PHONY : tests.cpp.o
 
 tests.i: tests.cpp.i
@@ -299,7 +218,7 @@ tests.i: tests.cpp.i
 
 # target to preprocess a source file
 tests.cpp.i:
-	$(MAKE) -f CMakeFiles/Run/runTests.dir/build.make CMakeFiles/Run/runTests.dir/tests.cpp.i
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests.cpp.i
 .PHONY : tests.cpp.i
 
 tests.s: tests.cpp.s
@@ -308,7 +227,7 @@ tests.s: tests.cpp.s
 
 # target to generate assembly for a file
 tests.cpp.s:
-	$(MAKE) -f CMakeFiles/Run/runTests.dir/build.make CMakeFiles/Run/runTests.dir/tests.cpp.s
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests.cpp.s
 .PHONY : tests.cpp.s
 
 # Help Target
@@ -319,24 +238,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Run/runMain"
-	@echo "... Run/runTests"
-	@echo "... racelibrary"
+	@echo "... runMain"
+	@echo "... runTests"
+	@echo "... applibrary"
 	@echo "... Main.o"
 	@echo "... Main.i"
 	@echo "... Main.s"
-	@echo "... Races/NAZI.o"
-	@echo "... Races/NAZI.i"
-	@echo "... Races/NAZI.s"
-	@echo "... Races/SPQR.o"
-	@echo "... Races/SPQR.i"
-	@echo "... Races/SPQR.s"
-	@echo "... Races/USA.o"
-	@echo "... Races/USA.i"
-	@echo "... Races/USA.s"
-	@echo "... Races/USSR.o"
-	@echo "... Races/USSR.i"
-	@echo "... Races/USSR.s"
+	@echo "... ShipFactory.o"
+	@echo "... ShipFactory.i"
+	@echo "... ShipFactory.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"

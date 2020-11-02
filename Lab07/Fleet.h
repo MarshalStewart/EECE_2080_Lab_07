@@ -9,9 +9,8 @@
 
 #include <vector>
 
-template<class ItemType> // Indicates this is a template definition
-
-// Declaration for the class PlainBox
+template<typename ItemType> // Indicates this is a template definition
+// Declaration for the class Fleet 
 class Fleet
 {
 private:
@@ -21,9 +20,8 @@ private:
    
 public:
 
-   
    // Parameterized constructor
-    Fleet(const ItemType& flagship);
+   Fleet(const ItemType& flagship);
    
    // Mutator method that can change the value of the data field
    void setFlagShip(const ItemType& theItem);
@@ -33,8 +31,6 @@ public:
    std::vector<ItemType> getFlotilla();
 
 private:
-   // Default constructor
-   Fleet();
 
 }; 
 

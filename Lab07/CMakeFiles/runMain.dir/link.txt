@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/runMain.dir/Main.cpp.o  -o runMain  libapplibrary.a 
