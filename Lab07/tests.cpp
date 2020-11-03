@@ -162,10 +162,10 @@ TEST(Fleet, getShip)
 	ASSERT_EQ(v[0]->GetArmorClass(), 12);
 	ASSERT_EQ(v[1]->GetArmorClass(), 18);
 
-	IShip *cur_ship = fleet->getFrontShip();
+	IShip *cur_ship = fleet->getLeftFrontShip();
 	ASSERT_EQ(cur_ship->GetArmorClass(), v[0]->GetArmorClass());
 
-	cur_ship = fleet->getRearShip();
+	cur_ship = fleet->getRightFrontShip();
 	ASSERT_EQ(cur_ship->GetArmorClass(), v[1]->GetArmorClass());
 	
 	delete fleet;

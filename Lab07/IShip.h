@@ -1,5 +1,6 @@
 #include "IRace.h"
 #include <memory>
+#include <string>
 
 #ifndef ISHIP
 #define ISHIP
@@ -21,13 +22,15 @@ General Structure Ship:
 */
 	IShip() {};
 	IShip(IRace* race) { m_race = race; }
-	IShip(IRace* race, int na, int hb, int db, int hp, int ac, int ib) : 
+	IShip(IRace* race, int na, int hb, int db, int hp, int ac, int ib, std::string s) : 
 		m_race(race), m_Num_Attacks(na), m_Hit_Bonus(hb), m_Damage_Bonus(db), 
-		m_Hit_Points(hp), m_Armor_Class(ac), m_Initiative_Bonus(ib) {}
+		m_Hit_Points(hp), m_Armor_Class(ac), m_Initiative_Bonus(ib), str_ship(s) {}
 
 	~IShip() {delete m_race;}
 
-	IRace *GetRace() {return m_race; }
+	IRace *GetRace() { return m_race; }
+	std::string GetStrRace() { return m_race->GetStrRace(); }
+	std::string GetStrShip() { return str_ship; }
 	int GetNumAttacks() { return m_Num_Attacks; };	
 	int GetHitBonus() { return m_Hit_Bonus; }
 	int GetDamageBonus() { return m_Damage_Bonus; }
@@ -50,7 +53,9 @@ protected:
 	int m_Hit_Points; // health
 	int m_Armor_Class; // armor class
 	int m_Initiative_Bonus; // initiative bonus
-	
+
+	string str_ship;
+
 	IRace* m_race;
 
 };
@@ -61,7 +66,7 @@ class Star_Destroyer : public IShip
 public:
 
 	Star_Destroyer(IRace* race) : 
-	IShip(race, 1, 0, 30, 200, 12, 0)
+	IShip(race, 1, 0, 30, 200, 12, 0, "Star Destroyer")
 	{
 		// int m_Num_Attacks = 1;
 		// int m_Hit_Bonus = 0; // low
@@ -83,7 +88,7 @@ class Star_Fighter : public IShip
 public:
 
 	Star_Fighter(IRace* race) : 
-	IShip(race, 1, 7, 10, 20, 18, 6)
+	IShip(race, 1, 7, 10, 20, 18, 6, "Star Fighter")
 	{
 		// m_race = race;
 
@@ -107,7 +112,7 @@ class Star_Bomber : public IShip
 public:
 
 	Star_Bomber(IRace* race) :
-	IShip(race, 1, 4, 50, 30, 14, 1)
+	IShip(race, 1, 4, 50, 30, 14, 1, "Star Bomber")
 	{
 		// m_race = race;
 
@@ -131,7 +136,7 @@ class Star_ApacheAttackHelicopter : public IShip
 public:
 
 	Star_ApacheAttackHelicopter(IRace* race) :
-	IShip(race, 1, 7, 30, 20, 8, 9)
+	IShip(race, 1, 7, 30, 20, 8, 9, "Star Apache Attack Helicopter")
 	{
 		// m_race = race;
 

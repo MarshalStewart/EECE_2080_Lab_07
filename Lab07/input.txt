@@ -1,0 +1,16 @@
+USA
+StarDestroyer
+USA
+StarDestroyer
+SPQR
+StarApacheAttackHelicopter
+SPQR
+StarApacheAttackHelicopter
+NAZI
+StarDestroyer
+USSR
+StarFighter
+USSR
+StarFighter
+NAZI
+StarBomber

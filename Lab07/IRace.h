@@ -1,3 +1,6 @@
+#include <string>
+
+
 #ifndef IRACE
 #define IRACE
 
@@ -5,10 +8,11 @@ class IRace
 {
 public:
 	IRace() {}
-	IRace(int hp, int ac, int hit, int initiative) : 
+	IRace(int hp, int ac, int hit, int initiative, std::string r) : 
 		m_Hit_Point_Mod(hp), m_Armor_Class_Mod(ac), m_Hit_Bonus_Mod(hit),
-		m_Initiative_Bonus_Mod(initiative) {}
+		m_Initiative_Bonus_Mod(initiative), str_race(r) {}
 
+	std::string GetStrRace() { return str_race; }
 	int GetHitPointModification() { return m_Hit_Point_Mod; }
 	int GetArmorClassModification() { return m_Armor_Class_Mod; }
 	int GetHitBonusModification() { return m_Hit_Bonus_Mod; } 
@@ -19,6 +23,8 @@ protected:
 	int m_Armor_Class_Mod;
 	int m_Hit_Bonus_Mod;
 	int m_Initiative_Bonus_Mod;
+
+	std::string str_race;
 
 };
 
@@ -36,7 +42,7 @@ protected:
 class NAZI : public IRace
 {
 public:
-	NAZI() : IRace(0, 0, 0, 0)
+	NAZI() : IRace(0, 0, 0, 0, "NAZI")
 	{
 	}
 	
@@ -49,7 +55,7 @@ public:
 class SPQR : public IRace
 {
 public:
-	SPQR() : IRace(0, 0, 0, 0)
+	SPQR() : IRace(0, 0, 0, 0, "SPQR")
 	{
 	}
 	
@@ -62,7 +68,7 @@ public:
 class USA : public IRace
 {
 public:
-	USA() : IRace(0, 0, 0, 0)
+	USA() : IRace(0, 0, 0, 0, "USA")
 	{
 	}
 
@@ -76,7 +82,7 @@ public:
 class USSR : public IRace
 {
 public:
-	USSR() : IRace(0, 0, 0, 0) 
+	USSR() : IRace(0, 0, 0, 0, "USSR") 
 	{
 	}
 

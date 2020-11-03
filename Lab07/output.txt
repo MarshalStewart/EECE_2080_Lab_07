@@ -1,0 +1,2070 @@
+Welcome to our game
+**************************************************
+Player 1 choose fleet: 
+--------------------------------------------------
+Choose a faction: NAZI, USSR, USA, SPQR
+USA selected
+Choose a ship type: StarDestroyer, StarFighter, StarBomber, StarApacheAttackHelicopter
+StarDestroyer selected
+--------------------------------------------------
+Choose a faction: NAZI, USSR, USA, SPQR
+USA selected
+Choose a ship type: StarDestroyer, StarFighter, StarBomber, StarApacheAttackHelicopter
+StarDestroyer selected
+--------------------------------------------------
+Choose a faction: NAZI, USSR, USA, SPQR
+SPQR selected
+Choose a ship type: StarDestroyer, StarFighter, StarBomber, StarApacheAttackHelicopter
+StarApacheAttackHelicopter selected
+--------------------------------------------------
+Choose a faction: NAZI, USSR, USA, SPQR
+SPQR selected
+Choose a ship type: StarDestroyer, StarFighter, StarBomber, StarApacheAttackHelicopter
+StarApacheAttackHelicopter selected
+**************************************************
+Player 2 choose fleet: 
+--------------------------------------------------
+Choose a faction: NAZI, USSR, USA, SPQR
+NAZI selected
+Choose a ship type: StarDestroyer, StarFighter, StarBomber, StarApacheAttackHelicopter
+StarDestroyer selected
+--------------------------------------------------
+Choose a faction: NAZI, USSR, USA, SPQR
+USSR selected
+Choose a ship type: StarDestroyer, StarFighter, StarBomber, StarApacheAttackHelicopter
+StarFighter selected
+--------------------------------------------------
+Choose a faction: NAZI, USSR, USA, SPQR
+USSR selected
+Choose a ship type: StarDestroyer, StarFighter, StarBomber, StarApacheAttackHelicopter
+StarFighter selected
+--------------------------------------------------
+Choose a faction: NAZI, USSR, USA, SPQR
+NAZI selected
+Choose a ship type: StarDestroyer, StarFighter, StarBomber, StarApacheAttackHelicopter
+StarBomber selected
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: USSR
+Ship: Star Fighter
+got hit for 7
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 20
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 13
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 30
+--------------------------------------------------
+Race: NAZI
+Ship: Star Bomber
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: USSR
+Ship: Star Fighter
+got hit for 4
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 20
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 9
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 30
+--------------------------------------------------
+Race: NAZI
+Ship: Star Bomber
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 24
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 176
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: USSR
+Ship: Star Fighter
+got hit for 13
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 20
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 30
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 10
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 166
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: USSR
+Ship: Star Fighter
+got hit for 13
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 7
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 30
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 8
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 158
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 4
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 196
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 7
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 30
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 158
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 1 Misses
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 196
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 7
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 30
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 6
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 152
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 30
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 166
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 7
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 30
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 152
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Bomber
+got hit for 3
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 166
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 7
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 27
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 152
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: USSR
+Ship: Star Fighter
+got hit for 1
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 166
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 6
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 27
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 6
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 146
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 200
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 1 Misses
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 166
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Hit Points: 6
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 27
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 12
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 146
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 188
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: USSR
+Ship: Star Fighter
+got hit for 13
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 166
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 27
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 4
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 146
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 184
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Bomber
+got hit for 20
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 166
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 7
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 18
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 146
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 166
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 1 Misses
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 166
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 7
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 20
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 146
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 146
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 3
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 163
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 7
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 8
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 138
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 146
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 1
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 162
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 7
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 8
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 138
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 138
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 15
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 147
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 7
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 8
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 138
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 130
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Bomber
+got hit for 3
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 147
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 4
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 4
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 134
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 130
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 1 Misses
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 147
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 4
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 134
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 130
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 12
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 135
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 4
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 134
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 130
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 21
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 114
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 4
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 8
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 130
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 30
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 84
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 4
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 4
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 1 Misses
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 84
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Hit Points: 4
+--------------------------------------------------
+Race: USSR
+Ship: Star Fighter
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 20
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 106
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Bomber
+got hit for 22
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 84
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 106
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 8
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 76
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 35
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 71
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 12
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 64
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 1
+Race: USA
+Ship: Star Destroyer
+got hit for 19
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 52
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 1
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 63
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 52
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 1 Misses
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 63
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 52
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 1 Misses
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 63
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 52
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 16
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 47
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 52
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 2
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 45
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 52
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 1
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 44
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 52
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 22
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 22
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 52
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 10
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 12
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 52
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 6
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Hit Points: 6
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+--------------------------------------------------
+Race: NAZI
+Ship: Star Destroyer
+is up to attack
+Player 2 Misses
+##################################################
+Player 1 is up!
+--------------------------------------------------
+Ship 0:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 126
+--------------------------------------------------
+Ship 1:
+Race: USA
+Ship: Star Destroyer
+Hit Points: 52
+--------------------------------------------------
+Ship 2:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Ship 3:
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+Hit Points: 20
+--------------------------------------------------
+Race: SPQR
+Ship: Star Apache Attack Helicopter
+is up to attack
+Player 2
+Race: NAZI
+Ship: Star Destroyer
+got hit for 20
+##################################################
+Player 2 is up!
+--------------------------------------------------
+Ship 0:
+Race: NAZI
+Ship: Star Destroyer
+Destroyed
+--------------------------------------------------
+Ship 1:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 2:
+Race: USSR
+Ship: Star Fighter
+Destroyed
+--------------------------------------------------
+Ship 3:
+Race: NAZI
+Ship: Star Bomber
+Destroyed
+Take that you Nazi bastards
+took 69 turns
