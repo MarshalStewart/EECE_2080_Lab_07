@@ -11,6 +11,6 @@ StarDestroyer
 USSR
 StarFighter
 USSR
-StarFighter
+StarApacheAttackHelicopter
 NAZI
 StarBomber

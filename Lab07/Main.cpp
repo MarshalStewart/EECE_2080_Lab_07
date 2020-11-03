@@ -129,20 +129,61 @@ int main()
     std::srand(time(nullptr)); // use current time as seed for random generator
     int dice_roll = 0;
     int fleet_size = 0;
+    int enemy_fleet_size = 0;
     int turn_counter = 0;
+    int initiative_counter = 0;
     IShip *cur_ship;
     IRace *cur_race;
     IShip *enemy_ship;
     Fleet<IShip*> *enemy_fleet;
     vector<IShip*> flotilla;
-    vector<IShip*> *enemy_flotilla;
- 
+    vector<IShip*> enemy_flotilla;
+
+    // Create initiative vector
+    vector<IShip*> initiative_flotilla;
+    vector<bool> initiative_id;
+    for (auto ship : fleet1->getFlotilla())
+    {
+        initiative_flotilla.push_back(ship);
+        initiative_id.push_back(0);
+    }
+    for (auto ship : fleet2->getFlotilla())
+    {
+        initiative_flotilla.push_back(ship);
+        initiative_id.push_back(1);
+    }
+
+    // Sort(insert sort) initiative vector
+    for (int r=0; r<initiative_flotilla.size(); r++)
+    {
+        int l = r;
+        int nxtItem = initiative_flotilla[r]->GetInitiativeBonus();
+        while ((l > 0) && (initiative_flotilla[l-1]->GetInitiativeBonus() > nxtItem))
+        {
+            initiative_flotilla[l] = initiative_flotilla[l-1];
+            initiative_id[l] = initiative_id[l-1];
+            l--;
+        }
+        initiative_flotilla[l] = initiative_flotilla[r]; // nxt Item
+        initiative_id[l] = initiative_id[r];
+    }
+
     while (!player1_won && !player2_won)
     {
         for (int i=0; i<50; i++)
             cout << "#";
         cout << endl;
-        
+
+        initiative_counter = turn_counter;
+        while (initiative_counter >= 8)
+        {
+            initiative_counter -= 8;
+        }
+
+        cur_ship = initiative_flotilla[initiative_counter];
+        cur_race = cur_ship->GetRace();
+        p_turn = initiative_id[initiative_counter];
+       
         if (!p_turn)
         {
             cout << "Player 1 is up!\n";
@@ -151,7 +192,9 @@ int main()
             
             flotilla = fleet->getFlotilla();
             fleet_size = flotilla.size();
-            cur_ship = nullptr; 
+
+            enemy_flotilla = enemy_fleet->getFlotilla();
+            enemy_fleet_size = enemy_flotilla.size();
 
         }
         else
@@ -162,8 +205,11 @@ int main()
             
             flotilla = fleet->getFlotilla();
             fleet_size = flotilla.size();
-            cur_ship = nullptr; 
+            
+            enemy_flotilla = enemy_fleet->getFlotilla();
+            enemy_fleet_size = enemy_flotilla.size();
         }
+
 
         // Summary of all ships
         int c = 0;
@@ -189,6 +235,7 @@ int main()
         // cout << "Press enter to play turn" << endl;
         // cin >> input;
 
+        // check if flotilla is dead
         for (auto ship : flotilla)
         {
             if (ship->GetHitPoints() <= 0)
@@ -197,27 +244,45 @@ int main()
             }
         }
 
+        // Check if enemy_flotilla is dead
+        for (auto ship : enemy_flotilla)
+        {
+            if (ship->GetHitPoints() <= 0)
+            {
+                enemy_fleet_size--;
+            }
+        }
+        
         // Check if game won
         if (fleet_size == 0)
         {
-            if (!p_turn)
-            {
-                player1_won = true;
-                cout << "Take that you Commie bastards\n";
-            }
-            else
-            {    
-                player2_won = true;
-                cout << "Take that you Nazi bastards\n";
-            }
-            cout << "took " << turn_counter << " turns" << endl; 
+            player2_won = true;
+            cout 
+                << "Player " << (p_turn ? "1" : "2") << " Wins\n"
+                << "took " << turn_counter << " turns" << endl; 
             continue; // exits loop
-        
+        }
+        else if (enemy_fleet_size == 0)
+        {    
+            player1_won = true;
+            cout 
+                << "Player " << (p_turn ? "2" : "1") << " Wins\n"
+                << "took " << turn_counter << " turns" << endl; 
+            continue; // exits loop
+        }
+
+        // Check if current ship is dead
+        if (cur_ship->GetHitPoints() <= 0)
+        {
+            cout << cur_ship->GetStrRace() << " " << cur_ship->GetStrShip() 
+                << " is dead" << endl;
+            turn_counter++;
+            continue;
         }
 
         // Select current ship
-        cur_ship = flotilla[fleet_size-1];
-        cur_race = cur_ship->GetRace();
+        // cur_ship = flotilla[fleet_size-1];
+        // cur_race = cur_ship->GetRace();
         
         // Role dice
         dice_roll = rand() % 20 + 1; // 1-20
@@ -419,23 +484,21 @@ int main()
                 dice_roll = 2*(rand() % cur_ship->GetDamageBonus() + 1); // 1-min damage
                 int damage = enemy_ship->GetHitPoints() - (dice_roll);
                 
-                if (damage > 0)
-                {
-                    // Do Damage to Enemy
-                    enemy_ship->SetHitPoints(damage);
-                    
-                    // Recoil Damage
-                    int new_hp = cur_ship->GetHitPoints();
-                    new_hp -= (int)(new_hp * 0.05);
-                    cur_ship->SetHitPoints(new_hp);
-                }
+                // Do Damage to Enemy
+                enemy_ship->SetHitPoints(damage);
                 
+                // Recoil Damage
+                int new_hp = cur_ship->GetHitPoints();
+                new_hp -= (int)((new_hp * 0.05)+3);
+                cur_ship->SetHitPoints(new_hp);
+                    
                 cout << "Player " << (p_turn ? "1" : "2") << endl
                     << "Race: " 
                     << enemy_ship->GetStrRace() << endl
                     << "Ship: " 
                     << enemy_ship->GetStrShip() << endl
                     << "got hit for " << dice_roll << endl;
+
             }
             else 
             {
@@ -444,8 +507,8 @@ int main()
         }
 
         // Move selected ship
-        fleet_size--;
-        p_turn = !p_turn;
+        // fleet_size--;
+        // p_turn = !p_turn;
         turn_counter++;
     }
     
