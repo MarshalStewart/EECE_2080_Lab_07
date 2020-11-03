@@ -30,7 +30,6 @@ TEST(Fleet, shipInit)
 	ASSERT_EQ(ac, 12);
 	ASSERT_EQ(init, 0);
 
-	// delete new_ship;
 
 	new_ship = shipFactory.CreateShip(
 		ShipFactory::Ship_Type::STAR_FIGHTER, ShipFactory::Race_Type::E_NAZI);
@@ -49,7 +48,6 @@ TEST(Fleet, shipInit)
 	ASSERT_EQ(ac, 18);
 	ASSERT_EQ(init, 6);
 
-	// delete new_ship;
 
 	new_ship = shipFactory.CreateShip(
 		ShipFactory::Ship_Type::STAR_BOMBER, ShipFactory::Race_Type::E_NAZI);
@@ -68,7 +66,6 @@ TEST(Fleet, shipInit)
 	ASSERT_EQ(ac, 14);
 	ASSERT_EQ(init, 1);
 
-	// delete new_ship;
 
 	new_ship = shipFactory.CreateShip(
 		ShipFactory::Ship_Type::STAR_APACHEATTACKHELICOPTER, ShipFactory::Race_Type::E_NAZI);
@@ -87,19 +84,36 @@ TEST(Fleet, shipInit)
 	ASSERT_EQ(ac, 8); 
 	ASSERT_EQ(init, 9);
 
-	// delete new_ship;
-
 }
- 
+
+TEST(Fleet, EmptyConstructor)
+{
+	ShipFactory shipFactory;
+	IShip* new_ship1 = shipFactory.CreateShip(
+		ShipFactory::Ship_Type::STAR_DESTROYER, ShipFactory::Race_Type::E_NAZI);
+
+	IShip* new_ship2 = shipFactory.CreateShip(
+		ShipFactory::Ship_Type::STAR_DESTROYER, ShipFactory::Race_Type::E_NAZI);
+
+    Fleet<IShip*> *fleet = new Fleet<IShip*>();
+	fleet->setFlagShip(new_ship1);
+	fleet->addFlotilla(new_ship1);
+	fleet->addFlotilla(new_ship2);
+	vector<IShip*> v = fleet->getFlotilla();
+
+	ASSERT_EQ(v.size(), 2);
+
+	delete fleet;
+}
+
 TEST(Fleet, isEmpty1)
 {
 
 	ShipFactory shipFactory;
 	IShip* new_ship = shipFactory.CreateShip(
 		ShipFactory::Ship_Type::STAR_DESTROYER, ShipFactory::Race_Type::E_NAZI);
-    // Fleet<IShip*> *fleet = new Fleet(new_ship);
-    Fleet<IShip*> *fleet;
-
+    
+	Fleet<IShip*> *fleet;
 	vector<IShip*> v = fleet->getFlotilla();
 
 	ASSERT_EQ(v.size(), 0);
@@ -108,7 +122,6 @@ TEST(Fleet, isEmpty1)
 
 TEST(Fleet, addShip1)
 {
-
 	ShipFactory shipFactory;
 	IShip* flag_ship = shipFactory.CreateShip(
 		ShipFactory::Ship_Type::STAR_DESTROYER, ShipFactory::Race_Type::E_NAZI);
@@ -116,16 +129,49 @@ TEST(Fleet, addShip1)
 	IShip* new_ship = shipFactory.CreateShip(
 		ShipFactory::Ship_Type::STAR_DESTROYER, ShipFactory::Race_Type::E_NAZI);
 
-    Fleet<IShip*> *fleet;
-	fleet->setFlagShip(flag_ship);
+    Fleet<IShip*> *fleet = new Fleet<IShip*>(flag_ship);
 	fleet->addFlotilla(new_ship);
 	vector<IShip*> v = fleet->getFlotilla();
 
 	ASSERT_EQ(v.size(), 1);
 	ASSERT_EQ(v[0]->GetArmorClass(), 12);
 
+	delete fleet;
 
 }
+
+TEST(Fleet, getShip)
+{
+	ShipFactory shipFactory;
+	IShip* flag_ship = shipFactory.CreateShip(
+		ShipFactory::Ship_Type::STAR_DESTROYER, ShipFactory::Race_Type::E_NAZI);
+
+	IShip* new_ship = shipFactory.CreateShip(
+		ShipFactory::Ship_Type::STAR_DESTROYER, ShipFactory::Race_Type::E_NAZI);
+	
+    Fleet<IShip*> *fleet = new Fleet<IShip*>(flag_ship);
+	fleet->addFlotilla(new_ship);
+
+	new_ship = shipFactory.CreateShip(
+		ShipFactory::Ship_Type::STAR_FIGHTER, ShipFactory::Race_Type::E_NAZI);
+
+	fleet->addFlotilla(new_ship);
+	vector<IShip*> v = fleet->getFlotilla();
+
+	ASSERT_EQ(v.size(), 2);
+	ASSERT_EQ(v[0]->GetArmorClass(), 12);
+	ASSERT_EQ(v[1]->GetArmorClass(), 18);
+
+	IShip *cur_ship = fleet->getFrontShip();
+	ASSERT_EQ(cur_ship->GetArmorClass(), v[0]->GetArmorClass());
+
+	cur_ship = fleet->getRearShip();
+	ASSERT_EQ(cur_ship->GetArmorClass(), v[1]->GetArmorClass());
+	
+	delete fleet;
+
+}
+
 
 
 int main(int argc, char **argv) {

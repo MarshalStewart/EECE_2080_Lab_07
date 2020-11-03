@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/IRace.h
+
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/IShip.h
+IRace.h
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/IRace.h
+memory
+-
+
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/ShipFactory.cpp
+ShipFactory.h
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/ShipFactory.h
+IShip.h
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/IShip.h
+IRace.h
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/IRace.h
+
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/ShipFactory.h
+IRace.h
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/IRace.h
+IShip.h
+/home/mstewart/EECE_2080/EECE_2080_Lab_07/Lab07/IShip.h
+map
+-
+

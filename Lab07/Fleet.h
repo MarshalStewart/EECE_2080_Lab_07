@@ -21,6 +21,7 @@ private:
 public:
 
    // Parameterized constructor
+   Fleet();
    Fleet(const ItemType& flagship);
    
    // Mutator method that can change the value of the data field
@@ -29,6 +30,20 @@ public:
    void addFlotilla(const ItemType& theItem);
 
    std::vector<ItemType> getFlotilla();
+
+   // Damage a ship, return true if dead
+   bool damageShip(int damage);
+
+   // Damage an entire Flotilla
+   void damageFlotilla(int damage);
+
+   // Get rear member
+   ItemType getLeftBackShip();
+   ItemType getRightBackShip();
+
+   // Get front member
+   ItemType getLeftFrontShip();
+   ItemType getRightFrontShip();
 
 private:
 

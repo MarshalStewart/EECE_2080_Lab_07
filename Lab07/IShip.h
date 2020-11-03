@@ -27,12 +27,21 @@ General Structure Ship:
 
 	~IShip() {delete m_race;}
 
+	IRace *GetRace() {return m_race; }
 	int GetNumAttacks() { return m_Num_Attacks; };	
 	int GetHitBonus() { return m_Hit_Bonus; }
 	int GetDamageBonus() { return m_Damage_Bonus; }
 	int GetHitPoints() { return m_Hit_Points; }
 	int GetArmorClass() { return m_Armor_Class; }
 	int GetInitiativeBonus() {return m_Initiative_Bonus; }
+
+	void SetNumAttacks(int na) { m_Num_Attacks = na; };	
+	void SetHitBonus(int hb) { m_Hit_Bonus = hb; }
+	void SetDamageBonus(int db) { m_Damage_Bonus = db; }
+	void SetHitPoints(int hp) { m_Hit_Points = hp; }
+	void SetArmorClass(int ac) { m_Armor_Class = ac; }
+	void SetInitiativeBonus(int ib) { m_Initiative_Bonus = ib; }
+
 
 protected:
 	int m_Num_Attacks; // number of attacks per turn

@@ -5,92 +5,67 @@ class IRace
 {
 public:
 	IRace() {}
-	IRace(int nazi_m, int spqr_m, int usa_m, int ussr_m) : 
-		m_NAZI_Mult(nazi_m), m_SPQR_Mult(spqr_m), m_USA_Mult(usa_m),
-		m_USSR_Mult(ussr_m) {}
+	IRace(int hp, int ac, int hit, int initiative) : 
+		m_Hit_Point_Mod(hp), m_Armor_Class_Mod(ac), m_Hit_Bonus_Mod(hit),
+		m_Initiative_Bonus_Mod(initiative) {}
 
-	virtual void HitPointModification() = 0; //TODO
-	virtual void ArmorClassModification() = 0; //TODO
-	virtual void HitBonusModification() = 0; // TODO
-	virtual void InitiativeBonus() = 0; // TODO
-
-	int GetNAZIMult() { return m_NAZI_Mult; }
-	int GetSPQRMult() { return m_SPQR_Mult; }
-	int GetUSAMult() { return m_USA_Mult; }
-	int GetUSSRMult() { return m_USSR_Mult; }
+	int GetHitPointModification() { return m_Hit_Point_Mod; }
+	int GetArmorClassModification() { return m_Armor_Class_Mod; }
+	int GetHitBonusModification() { return m_Hit_Bonus_Mod; } 
+	int GetInitiativeBonus() { return m_Initiative_Bonus_Mod; }
 
 protected:
-	int m_NAZI_Mult;
-	int m_SPQR_Mult;
-	int m_USA_Mult;
-	int m_USSR_Mult;
+	int m_Hit_Point_Mod;
+	int m_Armor_Class_Mod;
+	int m_Hit_Bonus_Mod;
+	int m_Initiative_Bonus_Mod;
 
 };
 
 // Nazi Socialist Workers Party
 /*
-	Blitzkrieg: Big initiative bonus for Nazi ship
+	Blitzkrieg: Take hit bonus penalty to get damage bonus on successful hit
+
+	less likely to hit but hit harder
+
+	ah thats cool, probably can do a rand num 1-10 and then if it's > 1 then attack (this happens everytime?)
+
+	what buff do u want?  -3 hitbonus for +15 damagebonus (balance is hard)
+
 */
 class NAZI : public IRace
 {
 public:
 	NAZI() : IRace(0, 0, 0, 0)
 	{
-		// m_NAZI_Mult = 0;
-		// m_SPQR_Mult = 0;
-		// m_USA_Mult = 0;
-		// m_USSR_Mult = 0;
 	}
-	
-	void HitPointModification() override {}
-	void ArmorClassModification() override {}
-	void HitBonusModification() override {}
-	void InitiativeBonus() override {}
 	
 };
 
 // Senatus Populusque Romanus
 /*
-	High Ground: Gives all allies Armor Buff
+	High Ground Flanking: Can attack back-row
 */
 class SPQR : public IRace
 {
 public:
 	SPQR() : IRace(0, 0, 0, 0)
 	{
-		// m_NAZI_Mult = 0;
-		// m_SPQR_Mult = 0;
-		// m_USA_Mult = 0;
-		// m_USSR_Mult = 0;
 	}
-
-	void HitPointModification() override {}
-	void ArmorClassModification() override {}
-	void HitBonusModification() override {}
-	void InitiativeBonus() override {}
 	
 };
 
 // United States of America Space Force
 /*
-	Tactical Communism Prevention: 10% chance to drop a nuke for massive aoe damage
+	Tactical Communism Prevention: 10% chance to drop a nuke for massive area of effect damage
 */
 class USA : public IRace
 {
 public:
 	USA() : IRace(0, 0, 0, 0)
 	{
-		// m_NAZI_Mult = 0;
-		// m_SPQR_Mult = 0;
-		// m_USA_Mult = 0;
-		// m_USSR_Mult = 0;
 	}
 
-	void HitPointModification() override {}
-	void ArmorClassModification() override {}
-	void HitBonusModification() override {}
-	void InitiativeBonus() override {}
-	
 };
 
 
@@ -101,19 +76,10 @@ public:
 class USSR : public IRace
 {
 public:
-	USSR() : IRace(0, 0, 0, 0)
+	USSR() : IRace(0, 0, 0, 0) 
 	{
-		// m_NAZI_Mult = 0;
-		// m_SPQR_Mult = 0;
-		// m_USA_Mult = 0;
-		// m_USSR_Mult = 0;
 	}
 
-	void HitPointModification() override {}
-	void ArmorClassModification() override {}
-	void HitBonusModification() override {}
-	void InitiativeBonus() override {}
-	
 };
 
 #endif // IRACE

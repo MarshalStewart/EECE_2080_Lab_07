@@ -7,6 +7,11 @@
 #include "Fleet.h"
 
 template<typename ItemType>
+Fleet<ItemType>::Fleet() 
+{
+}
+
+template<typename ItemType>
 Fleet<ItemType>::Fleet(const ItemType& theItem) : m_flagShip(theItem)
 {
 }  // end constructor
@@ -23,9 +28,34 @@ void Fleet<ItemType>::addFlotilla(const ItemType& theItem)
 { 
     m_flotilla.push_back(theItem);
 }
+
 template<class ItemType>
 std::vector<ItemType> Fleet<ItemType>::getFlotilla()
 {
     return m_flotilla;
+}
+
+template<class ItemType>
+ItemType Fleet<ItemType>::getLeftFrontShip()
+{
+    return m_flotilla[0];
+}
+
+template<class ItemType>
+ItemType Fleet<ItemType>::getRightFrontShip()
+{
+    return m_flotilla[1];
+}
+
+template<class ItemType>
+ItemType Fleet<ItemType>::getLeftBackShip()
+{
+    return m_flotilla[2];
+}
+
+template<class ItemType>
+ItemType Fleet<ItemType>::getRightBackShip()
+{
+    return m_flotilla.back();
 }
 
